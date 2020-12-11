@@ -1,14 +1,3 @@
-# Compiled files
-*.tfstate
-*.tfstate.backup
-
-# Module directory
-.terraform/
-
-# Local values for vars
-terraform.tfvars
-.idea
-*.iml
-
-.build-harness
-build-harness
+.terraform
+*tfstate*
+.plan*
